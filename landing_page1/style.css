@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Black Ops One','swap';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+i{
+    font-size: 25px;
+ 
+}
+main{
+    background-color: azure;
+}
+#nav{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 8vw;
+
+}
+.box{
+    overflow: hidden;
+}
+
+.logo h1{
+    font-weight: 100;
+}
+.menu i{
+    font-size: 25px;
+    margin:0 10px;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+}
+
+.images{
+    position: absolute;
+    top:25%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    width: 100%;
+    padding: 0px 11vw;
+}
+
+.image{
+    height: 100%;
+    width: 25%;
+    object-fit: cover;
+}
+
+.overtext{
+    position: absolute;
+    width: fit-content;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.overtext h1{
+    font-size: 130px;
+    color: white;
+    letter-spacing: 45px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 0px 0px 8px black;
+    
+}
+
+.slide{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw;
+
+}
+.slide i{
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+    bottom:10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title h3{
+    font-weight: 100;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap:20px;
+    position: absolute;
+    right: 2%;
+    bottom:10%;
+}
+.media i{
+    font-size: 20px;
+    cursor:pointer;
+}
