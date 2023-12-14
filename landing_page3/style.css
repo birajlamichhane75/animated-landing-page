@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@700&family=Laila:wght@700&family=Nosifer&family=Rajdhani&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arya";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#page1 {
+    position: relative;
+    background-color: #d6e9c0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#nav .menu {
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+}
+#nav .logo h1{
+    text-transform: uppercase;
+    font-family: 'Nosifer';
+    font-size: 23px;
+}
+
+#nav .menu .menu-list {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#nav .icon i {
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#center {
+    height: 87vh;
+    width: 95%;
+    display: flex;
+}
+
+#center .left {
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+.left .text {
+    position: absolute;
+    z-index: 99;
+    top: 40%;
+    right: -38%;
+    transform: translate(0, -50%);
+}
+
+.overlay {
+    overflow: hidden;
+}
+
+.text h1 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: 'Laila';
+    text-shadow: 0px 0px 6px rgb(63, 61, 61);
+}
+
+.text h1 span {
+    font-family: 'Laila';
+    display: inline-block;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+.text p {
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-family: "Rajdhani";
+    letter-spacing: 10px;
+}
+
+.right {
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    height: 100%;
+    width: 35%;
+    background-color: rgb(155, 135, 135);
+    overflow: hidden;
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.media {
+    position: absolute;
+    right: 1.5%;
+    bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.media i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.bottom .cover {
+    overflow: hidden;
+}
+
+.bottom h4 {
+    font-size: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+.bottom h4 .line {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+}
+
+.card {
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.card .arrow {
+    height: 100%;
+    width: 15%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow i {
+    font-size: 25px;
+    cursor: pointer
+}
+
+.card .img-box {
+    height: 100%;
+    width: 85%;
+}
+
+.img-box img {
+    height: 100%;
+    width: 100%;
+    margin: -3.2px 0;
+}
